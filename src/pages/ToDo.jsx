@@ -137,9 +137,6 @@ const ToDo = () => {
       <CardContent className="flex flex-col items-center py-10">
         <p>{todo.description}</p>
       </CardContent>
-      <CardFooter className="flex justify-center">
-        <h1>By Al Drazen Sagarino</h1>
-      </CardFooter>
     </Card>
   );
 };

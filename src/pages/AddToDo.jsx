@@ -36,12 +36,12 @@ const AddToDo = () => {
   return (
     <div>
       <div>
-        <Card className="w-[750px]">
+        <Card className="w-[750px] py-3">
           <CardHeader>
             <CardTitle>Add To Do</CardTitle>
             <CardDescription>Fill all fields to add to do</CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-col py-10 gap-y-5 w-full">
+          <CardContent className="flex flex-col gap-y-5 w-full">
             <div className="gap-y-2">
               <Label>Title</Label>
               <Input value={title} onChange={(e) => setTitle(e.target.value)} />
@@ -56,9 +56,6 @@ const AddToDo = () => {
             </div>
             <Button onClick={handleSubmit}>Add To Do</Button>
           </CardContent>
-          <CardFooter className="flex justify-center">
-            <h1>By Al Drazen Sagarino</h1>
-          </CardFooter>
         </Card>
       </div>
     </div>
