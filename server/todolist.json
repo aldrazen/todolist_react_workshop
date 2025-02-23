@@ -1,0 +1,40 @@
+{
+  "todolist": [
+    {
+      "id": "1",
+      "title": "Complete Flutter UI",
+      "description": "Finish designing the sign-up and login pages.",
+      "date": "2025-02-24"
+    },
+    {
+      "id": "2",
+      "title": "Debug authentication issue",
+      "description": "Fix Google Sign-In issue in the authentication flow.",
+      "date": "2025-02-23"
+    },
+    {
+      "id": "3",
+      "title": "Implement profile update",
+      "description": "Allow users to edit and update their profile details.",
+      "date": "2025-02-24"
+    },
+    {
+      "id": "4",
+      "title": "Test Supabase queries",
+      "description": "Verify all CRUD operations for the user database.",
+      "date": "2025-02-25"
+    },
+    {
+      "id": "5",
+      "title": "Optimize app performance",
+      "description": "Improve state management and reduce UI rebuilds.",
+      "date": "2025-02-26"
+    },
+    {
+      "id": "0",
+      "title": "Lock in and start learning JS and ReactJS",
+      "description": "To prepare for my OJT, Learn JavaScript and ReactJS",
+      "date": "2025-02-24"
+    }
+  ]
+}
